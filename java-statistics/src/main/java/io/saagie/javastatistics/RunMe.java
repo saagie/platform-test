@@ -13,9 +13,10 @@ public class RunMe {
             descriptiveStatistics.addValue(random.nextDouble() * 100);
         }
 
-        System.out.println("Version 2");
+        System.out.println("Version 3");
         System.out.println("Sum : " + descriptiveStatistics.getSum());
         System.out.println("Min : " + descriptiveStatistics.getMin());
         System.out.println("Max : " + descriptiveStatistics.getMax());
+        System.out.println("Mean : " + descriptiveStatistics.getMean());
     }
 }
