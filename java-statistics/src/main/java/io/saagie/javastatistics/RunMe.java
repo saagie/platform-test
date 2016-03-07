@@ -10,10 +10,12 @@ public class RunMe {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10000000; i++) {
-            descriptiveStatistics.addValue(random.nextDouble());
+            descriptiveStatistics.addValue(random.nextDouble() * 100);
         }
 
-        System.out.println("Version 1");
+        System.out.println("Version 2");
         System.out.println("Sum : " + descriptiveStatistics.getSum());
+        System.out.println("Min : " + descriptiveStatistics.getMin());
+        System.out.println("Max : " + descriptiveStatistics.getMax());
     }
 }
